@@ -1,0 +1,14 @@
+#include <WiFi.h>
+#include <Servo.h>
+
+Servo myservo; //crear objeto servo para controlar un servo
+//Se pueden crear doce objetos servo en la mayoría de los tableros
+
+//GPIO al que se une el servo
+static const int servoPin = 14;
+
+//reemplazar con sus credenciales de red
+const char ssid = "Nombre_de_la_Red_WiFi";
+const char password = "contraseña";
+
+
